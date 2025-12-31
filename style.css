@@ -61,7 +61,7 @@ img { max-width: 100%; display: block; }
 .secondary-cta-group {
   display: flex;
   gap: 12px;
-  margin-top: 14px;
+  margin-top: 20px;
   flex-wrap: wrap;
 }
 
