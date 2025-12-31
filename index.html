@@ -1,215 +1,191 @@
-:root {
-  --bg-main: #f6f5f3;
-  --bg-muted: #eef1ed;
-  --bg-accent: #f4efe6;
-  --text-main: #1f2933;
-  --text-soft: #4b5563;
-  --accent: #d9a441;
-  --white: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RightSpace — Interior Cost Clarity Before Possession</title>
 
-/* RESET */
-* {
-  box-sizing: border-box;
-}
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-body {
-  margin: 0;
-  font-family: 'Inter', system-ui, sans-serif;
-  color: var(--text-main);
-  background: var(--bg-main);
-}
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-img {
-  max-width: 100%;
-  display: block;
-}
+<!-- HERO -->
+<header class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <img src="logo.png" alt="RightSpace logo" class="logo">
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+      <h1>
+        Bought a Home.<br>
+        <span>Now Confused About Interiors?</span>
+      </h1>
 
-/* LAYOUT */
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-}
+      <p class="hero-subtitle">
+        Most home loans don’t cover interiors.
+        RightSpace helps you understand <strong>what it will actually cost</strong>
+        to furnish your home — <strong>before possession</strong>.
+      </p>
 
-.container.narrow {
-  max-width: 780px;
-}
+      <div class="hero-cta">
+        <a href="#buyers" class="btn btn-primary">Check My Interior Cost</a>
+        <div class="secondary-links">
+          <a href="#builders">I’m a Builder</a>
+          <a href="#finance">I’m a Finance Partner</a>
+        </div>
+      </div>
+    </div>
 
-.section {
-  padding: 100px 0;
-}
+    <div class="hero-image">
+      <!-- Replace later with your own -->
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Modern living room">
+    </div>
+  </div>
+</header>
 
-.section-muted {
-  background: var(--bg-muted);
-}
+<!-- PROBLEM -->
+<section class="section section-muted">
+  <div class="container narrow">
+    <h2>The Interior Cost Shock No One Warns You About</h2>
 
-.section-accent {
-  background: var(--bg-accent);
-}
+    <ul class="problem-list">
+      <li><strong>Savings</strong> get exhausted during booking & registration</li>
+      <li><strong>Home loans</strong> usually don’t cover furnishing</li>
+      <li><strong>Move-in</strong> gets delayed by 6–18 months</li>
+      <li><strong>Decisions</strong> get rushed, expensive, and regrettable</li>
+    </ul>
 
-/* HERO */
-.hero {
-  padding: 100px 0;
-}
+    <p class="problem-close">
+      This is where most first-time homebuyers quietly get stuck.
+    </p>
+  </div>
+</section>
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 60px;
-  align-items: center;
-}
+<!-- SOLUTION -->
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="split-text">
+        <h2>RightSpace Fixes This<br>At the Booking Stage</h2>
 
-.logo {
-  width: 120px;
-  margin-bottom: 40px;
-}
+        <div class="steps">
+          <div class="step">
+            <h3>Layout-Based Planning</h3>
+            <p>Furniture planned on your actual flat layout — not guesswork.</p>
+          </div>
+          <div class="step">
+            <h3>Upfront Cost Clarity</h3>
+            <p>Understand realistic furnishing costs well before possession.</p>
+          </div>
+          <div class="step">
+            <h3>Optional Standard Packages</h3>
+            <p>Convert plans into ready-to-execute furnishing packages.</p>
+          </div>
+        </div>
+      </div>
 
-.hero h1 {
-  font-size: 44px;
-  line-height: 1.2;
-  margin: 0 0 20px;
-}
+      <div class="split-image">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7" alt="Interior catalog style">
+      </div>
+    </div>
+  </div>
+</section>
 
-.hero h1 span {
-  color: var(--text-soft);
-}
+<!-- BUYERS -->
+<section id="buyers" class="section section-accent">
+  <div class="container split reverse">
+    <div class="split-image">
+      <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6" alt="Furnished Indian home">
+    </div>
 
-.hero-subtitle {
-  font-size: 18px;
-  line-height: 1.7;
-  max-width: 520px;
-}
+    <div class="split-text">
+      <h2>For Homebuyers</h2>
 
-.hero-cta {
-  margin-top: 40px;
-}
+      <ul class="buyer-benefits">
+        <li>Avoid last-minute interior panic</li>
+        <li>Reduce dependence on credit cards or personal loans</li>
+        <li>Furnish practically — not emotionally</li>
+        <li>Move in faster with essentials done right</li>
+      </ul>
 
-.secondary-links {
-  margin-top: 12px;
-}
+      <div class="buyer-box">
+        <p><strong>You get:</strong></p>
+        <ul>
+          <li>Free layout-based furnishing plan</li>
+          <li>Clear cost estimate for essential furniture</li>
+          <li>No obligation to purchase</li>
+        </ul>
+      </div>
 
-.secondary-links a {
-  margin-right: 18px;
-  font-size: 14px;
-  color: var(--text-soft);
-}
+      <a href="#contact" class="btn btn-primary large">
+        Get My Free Layout & Cost Estimate
+      </a>
 
-/* BUTTONS */
-.btn {
-  display: inline-block;
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-weight: 600;
-}
+      <p class="fine-print">
+        Takes under 2 minutes · No spam · No sales pressure
+      </p>
+    </div>
+  </div>
+</section>
 
-.btn-primary {
-  background: var(--accent);
-  color: #111;
-}
+<!-- BUILDERS -->
+<section id="builders" class="section">
+  <div class="container narrow">
+    <h2>For Builders & Developers</h2>
 
-.btn.large {
-  padding: 18px 34px;
-  font-size: 16px;
-}
+    <p>
+      RightSpace helps reduce buyer hesitation caused by interior cost uncertainty
+      — without execution or inventory risk.
+    </p>
 
-/* SPLIT SECTIONS */
-.split {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
+    <ul class="neutral-list">
+      <li>Higher booking confidence</li>
+      <li>Fewer “we’ll decide later” objections</li>
+      <li>Value-added service at booking</li>
+    </ul>
+  </div>
+</section>
 
-.split.reverse {
-  grid-template-columns: 1fr 1fr;
-}
+<!-- FINANCE -->
+<section id="finance" class="section section-muted">
+  <div class="container narrow">
+    <h2>For Finance & NBFC Partners</h2>
 
-.split-text h2 {
-  margin-top: 0;
-}
+    <ul class="neutral-list">
+      <li>Qualified first-time buyer funnel</li>
+      <li>Standardized furnishing ticket sizes</li>
+      <li>Visibility aligned with possession timelines</li>
+    </ul>
 
-.split-image img {
-  border-radius: 12px;
-}
+    <p class="fine-print">
+      Financing integration planned in a later phase.
+    </p>
+  </div>
+</section>
 
-/* TYPOGRAPHY */
-h2 {
-  font-size: 34px;
-  margin-bottom: 30px;
-}
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container narrow">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hello@rightspace.in">hello@rightspace.in</a></p>
+    <p>Pune, Maharashtra</p>
+  </div>
+</section>
 
-h3 {
-  font-size: 18px;
-  margin-bottom: 8px;
-}
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <img src="logo.png" class="logo footer-logo" alt="RightSpace">
+    <p>
+      RightSpace is a layout planning and furnishing solutions platform.
+      We do not sell real estate.
+    </p>
+  </div>
+</footer>
 
-p, li {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--text-soft);
-}
+</body>
+</html>
 
-/* LISTS */
-.problem-list,
-.buyer-benefits,
-.neutral-list {
-  padding-left: 0;
-  list-style: none;
-}
-
-.problem-list li,
-.buyer-benefits li,
-.neutral-list li {
-  margin-bottom: 14px;
-}
-
-/* STEPS */
-.steps .step {
-  margin-bottom: 30px;
-}
-
-/* BUYER BOX */
-.buyer-box {
-  background: var(--white);
-  padding: 24px;
-  border-radius: 10px;
-  margin: 30px 0;
-}
-
-/* FOOTER */
-.footer {
-  background: #1c1c1c;
-  color: #cbd5e1;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.footer-logo {
-  margin: 0 auto 20px;
-}
-
-/* MOBILE */
-@media (max-width: 900px) {
-  .hero-grid,
-  .split {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding: 70px 0;
-  }
-
-  h1 {
-    font-size: 36px;
-  }
-
-  .section {
-    padding: 70px 0;
-  }
-}
